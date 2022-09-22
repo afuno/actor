@@ -19,4 +19,5 @@ module ServiceActor
       base.include(ServiceActor::Defaultable)
       base.include(ServiceActor::Failable)
     end
+  end
 end
